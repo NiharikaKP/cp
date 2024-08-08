@@ -2,21 +2,9 @@
 using namespace std;
 
 int main(){
-    vector<int> v;
-    v.push_back(5);
-    v.push_back(6);
-    v.push_back(3);
+    vector<int> v(50, 7); // {0, 0, 0, 0....}
+    cout << v.size() << endl << v[23];
 
-    cout << v.size() << "\n"; // 3
-    // cout << v[0] << " " << v[1] << " " << v[2];
-
-    v.pop_back();
-    cout << v.size() << "\n"; // 2
-
-    v.clear();
-    cout << v.size() << "\n"; // 3
-
-    // cout << v[0] << " " << v[1] << " " << v[2];
-    
+    vector<int> v2[50]; // this is an array of 50 vectors!!!!
 
 }
