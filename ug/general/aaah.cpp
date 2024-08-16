@@ -7,7 +7,7 @@ int main() {
     int size1 = john.size();
     int size2 = doctor.size();
 
-    if (size1 > size2) {
+    if (size1 >= size2) {
         cout << "go" << "\n";
     }
     else {
